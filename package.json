@@ -1,0 +1,26 @@
+{
+  "name": "ylrk",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress-vite dev src",
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "@vuepress/plugin-shiki": "2.0.0-rc.21",
+    "@vuepress/theme-default": "2.0.0-rc.21",
+    "chart.js": "^4.4.2",
+    "katex": "^0.16.10",
+    "vue": "^3.4.21",
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-theme-hope": "2.0.0-rc.32"
+  }
+}
