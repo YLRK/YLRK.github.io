@@ -1,13 +1,13 @@
 ---
 home: true
 layout: BlogHome
-# icon: home
+icon: home
 title: 博客主页
-# heroImage: 
-heroText: YLRK
-bgImage: 
-# heroFullScreen: true
-tagline: 菜鸟蜕变知识库
+heroImage: /assets/icon/Avatar_Snap.png
+heroText: YLRK's Blog
+# bgImage: 
+heroFullScreen: true
+tagline: 菜鸟
 # # projects:
 #   - icon: project
 #     name: 项目名称

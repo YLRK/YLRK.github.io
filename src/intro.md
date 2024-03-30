@@ -1,3 +1,31 @@
-# 介绍页
+---
+icon: 
+date: 2024-03-12
+sidebar: false
+category:
+  - About
+tag:
+  - About
+comment: false
+---
+# 关于我
 
-将你的个人介绍和档案放置在此处。
+## Profile
+
+## Skills
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=cpp,python,md,matlab,bash&theme=dark&&perline=10" alt="Skills"/>
+
+### Tools
+
+<img src="https://skillicons.dev/icons?i=vim,vscode,pycharm,git,github,pytorch,anaconda,docker,ros,opencv,cmake,powershell&theme=dark&&perline=10" alt="Skills"/>
+
+### Others
+
+<img src="https://skillicons.dev/icons?i=obsidian&theme=dark&&perline=10" alt="Skills"/>
+
+## 关于本站
+
+[传送门](/about)

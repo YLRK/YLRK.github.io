@@ -3,7 +3,7 @@
  * @version: 1.0
  * @Author: YLRK
  * @Date: 2024-03-30 14:04:24
- * @LastEditTime: 2024-03-30 14:54:47
+ * @LastEditTime: 2024-03-30 21:59:40
  */
 
 
@@ -11,7 +11,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
     "/": [
-        // "",
+        "",
         // {
         //     text: "Demo",
         //     icon: "laptop-code",
@@ -26,6 +26,7 @@ export default sidebar({
         //     children: "structure",
         // },
         "intro",
+        "about",
         // {
         //     text: "Slides",
         //     icon: "person-chalkboard",

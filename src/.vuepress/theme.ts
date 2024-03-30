@@ -3,7 +3,7 @@
  * @version: 1.0
  * @Author: YLRK
  * @Date: 2024-03-30 13:59:37
- * @LastEditTime: 2024-03-30 16:31:26
+ * @LastEditTime: 2024-03-30 22:03:19
  */
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
@@ -18,15 +18,22 @@ export default hopeTheme({
     sidebar: sidebar,
     displayFooter: true,
 
+    iconAssets: "fontawesome", // 使用 fontawesome 图标库
+
     blog: {
         intro: "/",
+        avatar: "/assets/icon/Avatar.png",
+        name: "YLRK",
         sidebarDisplay: "mobile",
+        description: "Vegetable Bird -> Rookie",
+        roundAvatar: true,
         medias: {
-            Email: "mailto:info@example.com",
+            Email: "mailto:ylrk@outlook.com",
             GitHub: "https://github.com/YLRK",
+            Zhihu: "https://www.zhihu.com/people/ylrk",
+            BiliBili: "https://space.bilibili.com/91185734",
         }
     },
-
     plugins: {
         prismjs: {
             light: "one-light",
@@ -44,6 +51,7 @@ export default hopeTheme({
             sup: true, // 启用上标
             tasklist: true, // 启用任务列表
             footnote: true, // 启用脚注
+            imgLazyload: true, // 启用图片懒加载
         },
         components: {
             components: [
