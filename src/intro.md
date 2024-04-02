@@ -20,26 +20,15 @@ comment: false
 
 ### Tools
 
-<img src="https://skillicons.dev/icons?i=vim,vscode,pycharm,clion,git,linux,ubuntu,github,pytorch,anaconda,docker,ros,opencv,cmake,nodejs,npm,pnpm,vue&theme=dark&&perline=10" alt="Skills"/>
+<img src="https://skillicons.dev/icons?i=vscode,pycharm,clion,git,docker,linux,ubuntu,github,pytorch,anaconda,ros,opencv,cmake,vim,neovim,obsidian,nodejs,npm,pnpm,vue&theme=dark&&perline=10" alt="Skills"/>
 
 ### Others
-
-<img src="https://skillicons.dev/icons?i=obsidian&theme=dark&&perline=10" alt="Skills"/>
-
 
 ## Project
 
 ## Competition
 
-
-
-
-
-
-
 ## 关于本站
 
 [传送门](/about)
-
-
 

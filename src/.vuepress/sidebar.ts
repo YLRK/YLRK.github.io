@@ -12,21 +12,21 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
     "/": [
         "",
-        // {
-        //     text: "Demo",
-        //     icon: "laptop-code",
-        //     prefix: "demo/",
-        //     link: "demo/",
-        //     children: "structure",
-        // },
+        {
+            text: "软件/工具教程",
+            icon: "laptop-code",
+            prefix: "docs/tools/",
+            link: "docs/tools/",
+            children: "structure",
+        },
         // {
         //     text: "Articles",
         //     icon: "book",
         //     prefix: "posts/",
         //     children: "structure",
         // },
-        "intro",
-        "about",
+        // "intro",
+        // "about",
         // {
         //     text: "Slides",
         //     icon: "person-chalkboard",

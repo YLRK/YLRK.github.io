@@ -8,10 +8,30 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
+    "/",
+    "/docs/tools/",
+    // {
+    //     text: "导航",
+    //     icon: "edit",
+    //     link: "/docs/",
+    // },
     {
-        text: "V2 Docs",
-        icon: "book",
-        link: "https://theme-hope.vuejs.press/",
-    },
+        text: "关于",
+        icon: "info",
+        children: [
+            {
+                text: "关于本站",
+                link: "/about",
+            },
+            {
+                text: "关于我",
+                link: "/intro",
+            },
+        ],
+        // link: "/about",
+        
+    }
+
+
 ]);
 
