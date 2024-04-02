@@ -1,22 +1,22 @@
 /*
- * @Description: 
+ * @Description:
  * @version: 1.0
  * @Author: YLRK
  * @Date: 2024-03-30 13:59:37
- * @LastEditTime: 2024-03-30 22:03:19
+ * @LastEditTime: 2024-04-02 10:03:43
  */
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
-
 export default hopeTheme({
     darkmode: "toggle", // 默认启用自动切换
     repo: "YLRK/YLRK.github.io",
-    repoDisplay: true,  // 是否显示仓库链接
-    navbar: navbar,
-    sidebar: sidebar,
-    displayFooter: true,
+    repoDisplay: true, // 是否显示仓库链接
+    navbar: navbar, // 导航栏配置
+    sidebar: sidebar, // 侧边栏配置
+    footer: "YLRK's Blog", // 页脚显示的内容
+    displayFooter: true, // 是否显示页脚
 
     iconAssets: "fontawesome", // 使用 fontawesome 图标库
 
@@ -32,7 +32,7 @@ export default hopeTheme({
             GitHub: "https://github.com/YLRK",
             Zhihu: "https://www.zhihu.com/people/ylrk",
             BiliBili: "https://space.bilibili.com/91185734",
-        }
+        },
     },
     plugins: {
         prismjs: {
@@ -54,9 +54,7 @@ export default hopeTheme({
             imgLazyload: true, // 启用图片懒加载
         },
         components: {
-            components: [
-                "Share",
-            ],
+            components: ["Share"],
         },
     },
 });

@@ -16,11 +16,11 @@ comment: false
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=cpp,python,md,matlab,bash&theme=dark&&perline=10" alt="Skills"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,python,md,matlab,bash,&theme=dark&&perline=10" alt="Skills"/>
 
 ### Tools
 
-<img src="https://skillicons.dev/icons?i=vim,vscode,pycharm,git,github,pytorch,anaconda,docker,ros,opencv,cmake,powershell&theme=dark&&perline=10" alt="Skills"/>
+<img src="https://skillicons.dev/icons?i=vim,vscode,pycharm,clion,git,linux,ubuntu,github,pytorch,anaconda,docker,ros,opencv,cmake,nodejs,npm,pnpm,vue&theme=dark&&perline=10" alt="Skills"/>
 
 ### Others
 
