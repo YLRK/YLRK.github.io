@@ -2,11 +2,11 @@
 title: "Tmux使用记录"
 date: 2024-04-02
 # icon: info
+# sidebar: false
 category: 
  - Tools
 tags: 
  - Tools
-# sidebar: false
 ---
 # Tmux
 
