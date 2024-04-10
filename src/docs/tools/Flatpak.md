@@ -1,5 +1,9 @@
 ---
 date: 2024-04-02
+category: 
+ - Tools
+tags: 
+ - Tools
 ---
 # Flatpak
 
