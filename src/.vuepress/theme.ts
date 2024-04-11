@@ -17,12 +17,13 @@ export default hopeTheme({
     sidebar: sidebar, // 侧边栏配置
     footer: "YLRK's Blog", // 页脚显示的内容
     displayFooter: true, // 是否显示页脚
+    favicon: "/assets/icon/Avatar_Snap++.png", // 网页标签栏图标
 
     iconAssets: "fontawesome", // 使用 fontawesome 图标库
 
     blog: {
         intro: "/",
-        avatar: "/assets/icon/Avatar.png",
+        avatar: "/assets/icon/Avatar+.png",
         name: "YLRK",
         sidebarDisplay: "mobile",
         description: "Vegetable Bird -> Rookie",

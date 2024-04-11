@@ -9,7 +9,12 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
     "/",
-    "/docs/tools/",
+    // "/docs/tools/",
+    {
+        text: "软件/工具教程",
+        icon: "tools",
+        link: "/docs/tools/",
+    },
     // {
     //     text: "导航",
     //     icon: "edit",
@@ -17,14 +22,16 @@ export default navbar([
     // },
     {
         text: "关于",
-        icon: "info",
+        icon: "info-circle",
         children: [
             {
                 text: "关于本站",
+                icon: "file-text",
                 link: "/about",
             },
             {
                 text: "关于我",
+                icon: "user",
                 link: "/intro",
             },
         ],

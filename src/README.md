@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: /assets/icon/Avatar_Snap.png
+heroImage: /assets/icon/Avatar_Snap++.png
 heroText: YLRK's Blog
 # bgImage: 
 heroFullScreen: true
